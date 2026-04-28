@@ -26,6 +26,7 @@ function start_app(){
   JBE_ONLINE_NAVI=true;
   //**************** 
   JBE_API='hris_api/';
+  JBE_API='https://vaxi.xo.je/hris_api/';
   FM_API=JBE_API+'fmlib.php';
   FM_AXIOS_SQL="SELECT * from sysfile";
   FM_AXIOS_PARA1='';
