@@ -1,0 +1,71 @@
+/***  mobile =======================================================================================  ***/
+/***  mobile =======================================================================================  ***/
+/***  mobile =======================================================================================  ***/
+@media screen and (max-width: 600px) {
+  .pBox{
+    color:black;
+    overflow:auto;
+  }
+
+  .pBox p{
+    color:black;
+    overflow:auto;
+  }
+
+  .pBoxSubArea{ width:53.9%; background:none; }  
+
+  .cls_ptr_summ{
+    height:60px;
+  }
+    .cls_ptr_summ div{
+      height:30px;width:100%;
+    }
+
+  #div_stockcard{ height: 40px;border:0px solid red; }
+
+  .cls_stockcard_vax{ height:100%;padding:5px;border:1px solid lightgray;background:none; }
+    .cls_stockcard_vax span{
+      width:20%;
+    }
+    .cls_stockcard_vax input{
+      width:80%;
+    }
+
+
+    .cls_stockcard_range{ float:left;height:100%;width:20%;border:0px solid red; }
+    .cls_stockcard_range span{
+      float:left;height:50%;text-align:center;margin-right:0%;padding:2px 0 0 0;
+      width:100%;
+    }
+    .cls_stockcard_range input{
+      float:left;height:40%;text-align:center;margin:0px;
+      width:100%;
+    }
+
+  .cls_stockcard_date{ float:right;height:100%;width:120px;margin-left:2%;padding:2px;border:0px solid coral; }
+    .cls_stockcard_date span{
+      float:left;height:50%;margin-right:2%;padding:0px 0 0 0;text-align:left;background:none;
+      width:100%;
+    }
+    .cls_stockcard_date input{
+      float:left;height:50%;text-align:left;margin:0px;
+      width:100%;
+    }
+
+  #div_stkledg{ height: 70px;border:0px solid red; }
+  .cls_stkledg{ float:left;height:100%;width:50%;border:0px solid greenyellow; }
+    .cls_stkledg span{
+      width:100%;
+      height:50%; 
+      text-align:center;
+      margin:0px;
+    }
+    .cls_stkledg input{
+      width:100%;   
+      height:50%; 
+    }  
+
+  .cls_div_stkled{ float:left;width:100%;height:35px;border:1px solid black;background:none; }
+  #div_stk1{ border-right:1px solid black; }
+  #div_stk2{ border-left:1px solid black; } 
+}
