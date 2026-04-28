@@ -28,6 +28,7 @@ function start_app(){
   JBE_API='hris_api/';
   JBE_API='https://vaxi.xo.je/hris_api/';
   FM_API=JBE_API+'fmlib.php';
+	alert(FM_API);
   FM_AXIOS_SQL="SELECT * from sysfile";
   FM_AXIOS_PARA1='';
   axios.get(FM_API, { params:{ sql:FM_AXIOS_SQL,fld:FM_AXIOS_PARA1,tbl:'sysfile',fm_mode:0 }}, JBE_HEADER)
