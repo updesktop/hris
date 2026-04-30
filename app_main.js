@@ -25,8 +25,9 @@ function start_app(){
   //****************
   JBE_ONLINE_NAVI=true;
   //**************** 
-  const API = "https://your-api.onrender.com";
+  const API = "https://jbe-api.onrender.com";
 	FM_API = "https://jbe-api.onrender.com/api/fmlib";
+	alert(FM_API);
 	/*
   JBE_API='hris_api/';
   JBE_API='https://vaxi.xo.je/hris_api/';
