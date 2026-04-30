@@ -35,7 +35,7 @@ function start_app(){
 */
   FM_AXIOS_SQL="SELECT * from sysfile";
   FM_AXIOS_PARA1='';
-  axios.get(FM_API, { params:{ sql:FM_AXIOS_SQL,fld:FM_AXIOS_PARA1,tbl:'sysfile',fm_mode:0 }}, JBE_HEADER)
+  axios.get(FM_API+'/fmlib', { params:{ sql:FM_AXIOS_SQL,fld:FM_AXIOS_PARA1,tbl:'sysfile',fm_mode:0 }}, JBE_HEADER)
   //axios.post(JBE_API+'z_sysfile.php', { clientno:CURR_CLIENT, tbl:"sysfile", request: 0 }, JBE_HEADER)
   .then(function (response) { 
     console.log('PHP Data: ',response.data); 
