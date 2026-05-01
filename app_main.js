@@ -21,21 +21,17 @@ function start_app(){
     document.getElementById('copyright').innerHTML='BCHO Copyright &copy; 2026'; 
   }
   JBE_ONLINE_NAVI=navigator.onLine;    
-  JBE_ONLINE=false;   
+  JBE_ONLINE=false;
   //****************
   JBE_ONLINE_NAVI=true;
   //**************** 
-  const API = "https://jbe-api.onrender.com";
-	FM_API = "https://jbe-api.onrender.com/api/fmlib";
-	alert(FM_API);
-	/*
-  JBE_API='hris_api/';
-  JBE_API='https://vaxi.xo.je/hris_api/';
-  FM_API=JBE_API+'fmlib.php';
-	alert(FM_API);
-*/
+  //JBE_API='hris_api/';
+  //FM_API=JBE_API+'fmlib.php';
+  //FM_API = "https://jbe-api.onrender.com/api/fmlib";
+  FM_API='/api/fmlib';
   FM_AXIOS_SQL="SELECT * from sysfile";
   FM_AXIOS_PARA1='';
+  //alert(FM_API);
   axios.get(FM_API, { params:{ sql:FM_AXIOS_SQL,fld:FM_AXIOS_PARA1,tbl:'sysfile',fm_mode:0 }}, JBE_HEADER)
   //axios.post(JBE_API+'z_sysfile.php', { clientno:CURR_CLIENT, tbl:"sysfile", request: 0 }, JBE_HEADER)
   .then(function (response) { 
