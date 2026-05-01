@@ -27,8 +27,8 @@ function start_app(){
   //**************** 
   //JBE_API='hris_api/';
   //FM_API=JBE_API+'fmlib.php';
-  //FM_API = "https://jbe-api.onrender.com/api/fmlib";
-  FM_API='/api/fmlib';
+  FM_API = "https://jbe-api.onrender.com/api/fmlib";
+  //FM_API='/api/fmlib';
   FM_AXIOS_SQL="SELECT * from sysfile";
   FM_AXIOS_PARA1='';
   //alert(FM_API);
